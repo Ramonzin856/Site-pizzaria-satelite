@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Satélite Pizzaria</title>
+<link rel="stylesheet" href="_css/home-senav.css"/>
+<link rel="stylesheet" href="_css/fotos-senav.css"/>
+<link rel="stylesheet" href="_css/detalhes.css"/>
+</head>
+<script language='javascript' src="_javascript/funçoes-senav.js"></script>
+<body >
+<div id="interface">
+    <header id="cabecalho">
+        <br> <br>
+
+<img id="icone" src="_imagens/home2.png"> 
+
+<nav id="menu"> 
+<ul type="square"> 
+    <li onmouseover="mudaFoto('_imagens/home2.png')"onmouseout="mudaFoto('_imagens/home2.png')"> <a href="index.html"> Home </a></li> 
+    <li onmouseover="mudaFoto('_imagens/galeria2.png')" onmouseout="mudaFoto('_imagens/home2.png')"> <a href="#galeria"> Galeria</a> </li> 
+    <li onmouseover="mudaFoto('_imagens/cardapio2.png')" onmouseout="mudaFoto('_imagens/home2.png')"> <a href="#cardapio"> Cardápio </a> </li>    
+</ul>
+</nav>
+</header> 
+
+    <article id="noticia-principal">
+    <header id="cabecalho-artigo" >
+        <br> <br>
+
+<h1>Interaja com a pizza</h1> <br> <br>
+<section id="conteudo">
+<img src="_imagens/pizza-fechada2.png"usemap="#meumapa" id="pizza" onmousemove="mudaPizza('pizza-aberta2')" onmouseout="mudaPizza('pizza-fechada2')"/>
+<map name="meumapa">
+    <area shape="circle" coords="376,281,23" href="saibamais.html#telefone" target="janela">
+    <area shape="circle" coords="297,334,28"href="saibamais.html#localização" target="janela">
+    <area shape="circle" coords="143,354,25" href="saibamais.html#historia" target="janela">
+    <area shape="circle" coords="367,199,22" href="saibamais.html#funcionarios" target="janela">
+    <area shape="circle" coords="203,169,25" href="saibamais.html#atualização" target="janela">
+    <area shape="circle" coords="106,270,19" href="saibamais.html#desça" target="janela">
+</map>
+<iframe src="saibamais.html" name="janela" id="frame-saiba"></iframe><!--nessa tag eu coloco só o parametro-->
+</section>
+<h1> Clique nas partes vermelhas da pizza</h1> <br> <br>
+<div id="imagens">
+    
+        
+
+        
+
+<h3><a name="galeria">.</a>Fotos do Produto</h3>
+<p>  Veja aseguir uma galeria de fotos com belas imagens que mostram alguns dos nossos trabalhos,para observar as imagens basta apenas passar o mouse sobre uma das fotos para ver uma versão ampliada</p>
+<ul id="album-fotos">
+     <li id="foto01"><span>Opções variadas! </span></li>
+     <li id="foto02"><span>Temos pizzas doces!</span></li>
+     <li id="foto03"><span>Visite o nosso estabelecimento</span></li>
+     <li id="foto04"><span>Fazemos esfihas</span></li>
+     <li id="foto05"><span> Dos mais variados sabores </span> </li>
+     <li id="foto06"><span>As clássicas não podem faltar!</span></li>
+</ul>
+
+</div> <br> <br>
+
+<div id="cardápio">
+    <h2><a name="cardapio">.</a>Promoções</h2>
+    <p>bla bla</p>
+    <h2>Pizzas Especiais</h2>
+    <p><br>  <p class="vermelho"> 01-Satélite </p> <p class="verde"> R$ 42,00 </p>
+    <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br> 
+    <p><br>  <p class="vermelho"> 02-Lua </p> <p class="verde"> R$ 34,00 </p>
+    <p> (Lombo,ervilha,milho,palmito,cebola e mussarela) </p><br> 
+    <p><br>  <p class="vermelho"> 03-Marte </p> <p class="verde">R$ 33,00 </p>
+    <p> (Peito de peru,frango desfiado,palmito,milho e catupiry) </p><br> 
+    <p><br>  <p class="vermelho"> 04-Mercúrio</p> <p class="verde"> R$ 34,00  </p>
+    <p> (Frango desfiado,ovos,cebola e cheddar) </p><br> 
+    <p><br>  <p class="vermelho"> 05-Netuno </p> <p class="verde"> R$ 31,00 </p>
+    <p> (Atum,escarola,mussarela e tomate) </p><br> 
+    <p><br>  <p class="vermelho"> 06-Plutão </p> <p class="verde"> R$ 33,00 </p>
+    <p> (Escarola,presunto,milho,rodelas de tomate e mussarela) </p><br> 
+    <p><br>  <p class="vermelho"> 07-Júpiter </p> <p class="verde"> R$ 42,00 </p>
+    <p> (Camarão,presunto, ovos,milho,palmito e mussarela)  </p><br> 
+    <p><br>  <p class="vermelho"> 08-Saturno  </p> <p class="verde"> R$ 32,00 </p>
+    <p> (Calabresa,milho,ovos,cebola e mussarela) </p><br> 
+    <p><br>  <p class="vermelho"> 09-Sol </p> <p class="verde"> R$ 37,00 </p>
+    <p> (Atum,aliche,cebola,bacon e mussarela) </p><br> 
+    <p><br>  <p class="vermelho">  10-Terra  </p> <p class="verde"> R$ 33,00 </p>
+    <p> (Mussarela,champignon,lombo e cebola) </p><br> 
+    <p><br>  <p class="vermelho"> 11-Urano</p> <p class="verde">  R$ 34,00  </p>
+    <p> (Calabresa,frango desfiado,catupiry,bacon e tomate)  </p><br> 
+    <p><br>  <p class="vermelho">  12-Vênus </p> <p class="verde"> R$ 33,00 </p>
+    <p> (Presunto,palmito,ervilha,catupiry e bacon) </p><br> 
+
+    <h2>Pizzas Tradicionais</h2> <br>
+        <p class="vermelho"> 13-Alho e Óleo</p>  <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 14-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 15-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 16-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 17-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 18-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 19-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 20-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 21-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 22-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 23-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 24-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 25-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 26-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 27-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 28-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 29-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 30-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 31-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 32-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 33-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 34-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 35-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 36-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 37-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 38-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 39-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 40-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 41-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 42-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 43-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 44-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 45-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 46-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 47-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 48-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 49-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 50-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 51-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 52-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 53-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 54-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 55-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 56-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 57-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 58-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 59-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 60-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 61-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 62-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 63-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 64-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+    <h2>Calzones</h2> <br>
+    <p class="vermelho"> 65-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+    <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+    <p class="vermelho"> 66-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 67-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 68-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 69-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 70-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+    <h2>Pizzas Doces</h2> <br>
+    <p class="vermelho"> 71-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 72-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+        <p class="vermelho"> 73-Alho e Óleo </p> <p class="verde"> R$ 29,00 </p>
+        <p> (camarão,milho verde,champignon,ovos e catupiry) </p><br>
+    <h2>Bebidas</h2> <br>
+    <p>-Refrigerantes<br> Cervejas e Vinhos</p>
+    <div id="sociais">
+    <h2> Nossas Redes Sociais</h2>
+   <a href="http://api.whatsapp.com/send?l=pt&phone=551198274.8532"target= _blank> <img src="_imagens/zap.png"></a> 
+  <a href="https://www.instagram.com/pizzariasatelitee/?hl=pt-br"target=_blank> <img src="_imagens/insta.png"> </a>
+   <a href="https://www.facebook.com/Pizzaria-e-Esfiharia-Satelite-563131523744008"target=_blank> <img src="_imagens/face.png"> </a>
+  <a href="https://www.ifood.com.br/delivery/santo-andre-sp/fogazzaria-pasteis-e-esfihas-satelite-parque-novo-oratorio/869083ea-5dff-4114-8737-07021cff477e"target=_blank> <img src="_imagens/ifood.png">   </a>
+    <p>Clique na rede rede social que deseja acessar e faça o seu pedido ou nos avalie!</p>
+</div>
+
+
+</div>
+
+</header>
+
+</article>
+</section>
+
+<footer id="rodape">
+<p>Copyright &copy; 2020 - by Ramon Diego</p> 
+</footer> 
+</div> 
+</body>
+</html>
