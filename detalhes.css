@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;/*deixa o conteudo centralizado*/
+}
+iframe#frame-saiba {
+    width: 400px;
+    height:420px;
+    border: none;/*remove a borda*/
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+}
+iframe#frame-saiba::-webkit-scrollbar {
+    display:none;
+}
+area {
+    outline:0;
+}

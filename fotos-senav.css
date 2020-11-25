@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding:50px ;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+
+
+    
+}
+ul#album-fotos li span/*O span tira a legenda*/ {
+    opacity: 0 ;/*faz aparecer e desaparecer*/
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 9pt;
+    line-height: 370px;/*Faz a legenda descer*/
+    padding: 5px;
+    border-radius: 20px;
+
+}
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);/*ele cresce a imagem*/
+    -webkit-transition: all 0.3s ease-in;/*Não deixa o efeito tão brusco */
+}
+
+ul#album-fotos li:hover span /*o span vai apcer qando passar por cima do li*/{
+    opacity: 1;
+    }
+
+ul#album-fotos li#foto01 {
+    background: url('../_imagens/hamburguer07.jpg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho original da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto01:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+ul#album-fotos li#foto02 {
+    background: url('../_imagens/pizza-doce02.jpeg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho oiginal da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto02:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+ul#album-fotos li#foto03 {
+    background: url('../_imagens/estabelicimento03.jpg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho oiginal da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto03:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+ul#album-fotos li#foto04 {
+    background: url('../_imagens/esfiras04.jpg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho oiginal da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto04:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+ul#album-fotos li#foto05 {
+    background: url('../_imagens/doce-doce05.jpg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho oiginal da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto05:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+ul#album-fotos li#foto06 {
+    background: url('../_imagens/salgada06.jpg')no-repeat ;
+    background-position:50% 50%;/*50 50 deixa imagem centralizada*/
+    background: size 400px 400px;/*tamanho oiginal da imagem de fundo*/
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto06:hover{
+    background-position:0px 0px;/*vai mostrar a pate de cima da tela*/
+    background-size: 200px 200px;/*Faz o efito de diminuir o tamanho*/
+}
+
